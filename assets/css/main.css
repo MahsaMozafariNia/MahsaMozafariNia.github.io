@@ -1801,7 +1801,7 @@ input, select, textarea {
 
 	header.major h2 {   /*headers*/
 		color: #7c1212;  
-		font-size: 2.5em;
+		font-size: 12.5em;
 	}
 		header.major h2 + p {
 			color:#040404;   /*#paragraph after header  like My Recent....*/
