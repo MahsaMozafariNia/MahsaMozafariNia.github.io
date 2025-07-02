@@ -1801,7 +1801,7 @@ input, select, textarea {
 
 	header.major h2 {   /*headers*/
 		color: #7c1212;  
-		font-size: 3.5em;
+		font-size: 0.5em;
 	}
 		header.major h2 + p {
 			color:#040404;   /*#paragraph after header  like My Recent....*/
@@ -2713,7 +2713,7 @@ input, select, textarea {
 				margin-bottom: 0;
 			}
 
-/* Header*/
+/* Header*/   /*side bar*/
 
 	#header {
 		display: -moz-flex;
