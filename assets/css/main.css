@@ -2414,7 +2414,7 @@ input, select, textarea {
 			position: relative;
 			vertical-align: top;
 			width: 48%;
-			font-size: 1.2em;
+			font-size: 1.2em;   /* like Herz Award*/
 		}
 
 			ul.feature-icons li:before {
@@ -2462,7 +2462,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.25em;
+				font-size: 1.25em;   /* like size of github icon */
 			}
 
 /* Table */
