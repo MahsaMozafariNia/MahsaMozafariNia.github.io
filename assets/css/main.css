@@ -143,7 +143,7 @@ input, select, textarea {
 		color: #88304E;
 		font-weight: 700;
 		line-height: 1em;
-		margin: 0 0 0.5625em 0;
+		margin: 0 0 0.5625em 0;    /* top-right-bottom-left*/
 	}
 	h3 {
 		color: rgb(6, 41, 218); /* or any other color you want */
@@ -159,6 +159,7 @@ input, select, textarea {
 			border: 0;
 			color: inherit;
 			text-decoration: none;
+			margin-right: 0.4em; 
 		}
 
 	h2 {   /* for Contact me*/
@@ -205,7 +206,7 @@ input, select, textarea {
 	}
 
 		hr.major {
-			margin: 30.375em 0;
+			margin: 3.375em 0;
 		}
 
 	blockquote {
