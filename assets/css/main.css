@@ -1813,7 +1813,7 @@ input, select, textarea {
 
 	header.major h4 {
 		color: #7c1212;  
-		font-size: 2.5em;
+		font-size: 2em;
 	}
 
 		header.major h4 + p {
@@ -2461,7 +2461,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.25em;
+				font-size: 2.25em;
 			}
 
 /* Table */
