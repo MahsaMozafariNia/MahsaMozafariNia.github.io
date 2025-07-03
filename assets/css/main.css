@@ -2212,7 +2212,7 @@ input, select, textarea {
 
 			.image.fit img {
 				display: block;
-				width: 50%;
+				width: 100%;
 			}
 
 		.image.avatar {
