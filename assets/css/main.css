@@ -3156,7 +3156,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 22pt;
+				font-size: 12pt;
 			}
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
@@ -3200,7 +3200,7 @@ input, select, textarea {
 			}
 
 				header.major h2 + p {
-					font-size: 1.9em;
+					font-size: 4.9em;
 				}
 
 		/* Features */
