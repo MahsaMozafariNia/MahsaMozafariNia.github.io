@@ -168,7 +168,7 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1.5em;    /* like Generative Sample */
-		line-height: 1.5em;
+		line-height: 1.5em;  /* line spaces */
 	}
 
 	h4 {
@@ -201,11 +201,11 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-bottom: solid 2px #dae0fb;
-		margin: 10.25em 0;
+		margin: 2.25em 0;
 	}
 
 		hr.major {
-			margin: 3.375em 0;
+			margin: 30.375em 0;
 		}
 
 	blockquote {
