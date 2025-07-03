@@ -201,7 +201,7 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-bottom: solid 2px #dae0fb;
-		margin: 1.25em 0;
+		margin: 2.25em 0;
 	}
 
 		hr.major {
@@ -2212,7 +2212,7 @@ input, select, textarea {
 
 			.image.fit img {
 				display: block;
-				width: 100%;
+				width: 50%;
 			}
 
 		.image.avatar {
