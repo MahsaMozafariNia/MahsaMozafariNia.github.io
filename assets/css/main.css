@@ -2975,7 +2975,7 @@ input, select, textarea {
 
 	}
 
-/* Medium */
+/* Medium  Laptop*/
 
 	#titleBar {
 		display: none;
@@ -2990,7 +2990,7 @@ input, select, textarea {
 			}
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 42pt;
 			}
 
 		/* Image */
@@ -3200,7 +3200,7 @@ input, select, textarea {
 			}
 
 				header.major h2 + p {
-					font-size: 4.9em;
+					font-size: 1.9em;
 				}
 
 		/* Features */
