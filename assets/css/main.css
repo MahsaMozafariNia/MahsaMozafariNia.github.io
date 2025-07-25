@@ -3433,3 +3433,29 @@ input, select, textarea {
 	cursor: pointer;
 	}
 	
+
+#recent-news {
+	margin: 4em auto;
+	text-align: center;
+	}
+
+	.myNewsSwiper .swiper-slide {
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 1em;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+	}
+
+	.myNewsSwiper img {
+	width: 100%;
+	height: 160px;
+	object-fit: cover;
+	border-radius: 6px;
+	margin-bottom: 10px;
+	}
+
+	.myNewsSwiper p {
+	font-size: 1em;
+	color: #333;
+	}
