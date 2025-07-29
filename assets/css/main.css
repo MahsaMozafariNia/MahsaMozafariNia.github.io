@@ -3517,6 +3517,6 @@ input, select, textarea {
   .news-image img {
     width: 100%;
     height: 200px;   /* or any consistent height */
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 5px;  /* optional for clean look */
   }
