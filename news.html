@@ -6,6 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
+
+
+
+<script>
+  function openModal(id) {
+    document.getElementById(id).style.display = "block";
+  }
+
+  function closeModal(id) {
+    document.getElementById(id).style.display = "none";
+    // stop the video when modal is closed
+    const iframe = document.querySelector(`#${id} iframe`);
+    if (iframe) {
+      iframe.src = iframe.src; // reset the src to stop playback
+    }
+  }
+
+  window.onclick = function(event) {
+    const modals = document.getElementsByClassName("modal");
+    for (let modal of modals) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+        const iframe = modal.querySelector("iframe");
+        if (iframe) {
+          iframe.src = iframe.src;
+        }
+      }
+    }
+  }
+</script>
+
+
 <body>
   <section id="header">
     <h1><a href="index.html">Mahsa Mozafarinia</a></h1>
@@ -62,6 +94,12 @@
               <h3>Ph.D. Defence</h3>
               <p> Defended my Ph.D. in Mathematics on Feb 2023.</p>
             </div>
+             <div class="col-4 col-12-medium">
+              <span class="image fit"><img src="images/CVPR_Worksho-Nashvil.avif" alt="SynData4CV" /></span>
+              <h3>Gave a talk at univerisity of Konstanz, Germany, 2022</h3>
+              <p>Gave a talk as a Herz research fellow on Graph Theory, Path Vertex Cover.</p>
+              <a href="#" onclick="openModal('modalYouTube')">Watch Video</a>
+            </div>
            </div>  <!--class row -->
 
          </div> <!--Container -->
@@ -69,6 +107,7 @@
     </div>  <!-- main -->
  </div>   <!-- wrapper -->
 
+ 
   <section id="footer">
     <div class="container">
       <ul class="copyright">
@@ -76,5 +115,23 @@
       </ul>
     </div>
   </section>
+
+
+<!-- Modal -->
+<div id="modalYouTube" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modalYouTube')">&times;</span>
+    <h3>Presentation Video</h3>
+    <div class="video-container">
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/gyNivDmehVY" 
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+
+
 </body>
 </html>
