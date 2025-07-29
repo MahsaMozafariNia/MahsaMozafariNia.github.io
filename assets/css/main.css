@@ -3511,3 +3511,12 @@ input, select, textarea {
 	width: 100%; height: 100%;
 }
 
+
+
+/* Images in News */
+  .news-image img {
+    width: 100%;
+    height: 200px;   /* or any consistent height */
+    object-fit: cover;
+    border-radius: 5px;  /* optional for clean look */
+  }
