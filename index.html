@@ -401,7 +401,7 @@
 			const swiper = new Swiper(".myNewsSwiper", {
 				slidesPerView: 3,
 				spaceBetween: 30,
-				loop: true,
+				loop: false,  // ✅ Important: prevents slide cutoff
 				navigation: {
 				nextEl: ".swiper-button-next",
 				prevEl: ".swiper-button-prev",
