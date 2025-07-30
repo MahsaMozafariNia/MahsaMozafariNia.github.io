@@ -3462,7 +3462,7 @@ input, select, textarea {
 
 	.myNewsSwiper {
 	width: 100%;
-	max-width: 100px;  /* ✅ Controls how wide the slider can be */
+	max-width: 1900px;  /* ✅ Controls how wide the slider can be */
 	margin: 0 auto;    /* ✅ Centers it horizontally */
 	}
 #recent-news
