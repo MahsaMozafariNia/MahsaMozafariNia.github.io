@@ -3459,6 +3459,12 @@ input, select, textarea {
 	font-size: 1em;
 	color: #333;
 	}
+
+	.myNewsSwiper {
+	width: 100%;
+	max-width: 900px;  /* ✅ Controls how wide the slider can be */
+	margin: 0 auto;    /* ✅ Centers it horizontally */
+	}
 #recent-news
 
 
