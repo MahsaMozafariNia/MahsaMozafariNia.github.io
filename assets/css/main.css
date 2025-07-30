@@ -3448,7 +3448,7 @@ input, select, textarea {
 	}
 
 	.myNewsSwiper img {
-	width: 100%;
+	width: 80%;
 	height: 160px;
 	object-fit: contain;
 	border-radius: 6px;
