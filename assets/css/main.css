@@ -3464,7 +3464,7 @@ input, select, textarea {
 	flex-shrink: 0;	
 	width: 100%;
 	max-width: 1200px;  /* ✅ Controls how wide the slider can be */
-	margin: 0 auto;    /* ✅ Centers it horizontally */
+	margin: 20 auto;    /* ✅ Centers it horizontally */
 	padding: 0 0px;
 	}
 #recent-news
