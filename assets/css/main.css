@@ -3462,8 +3462,8 @@ input, select, textarea {
 
 	.myNewsSwiper {
 	flex-shrink: 0;	
-	width: 70%;
-	max-width: 2000px;  /* ✅ Controls how wide the slider can be */
+	width: 50%;
+	max-width: 3000px;  /* ✅ Controls how wide the slider can be */
 	margin: 0 auto;    /* ✅ Centers it horizontally */
 	padding: 0 1px;
 	}
